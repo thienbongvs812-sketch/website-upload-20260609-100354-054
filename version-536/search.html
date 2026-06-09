@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 高清影视</title>
+  <meta name="description" content="搜索免费高清影视内容，快速查找热门大片、经典老片、韩剧美剧、在线播放资源。">
+  <meta name="keywords" content="搜索影片,在线搜索,高清影视,手机在线观看,免费高清影视,热门大片,经典老片,韩剧美剧,在线播放,高清画质,手机观影">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="高清影视">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">高清影视</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+          <a class="nav-link" href="./categories.html">分类</a>
+          <a class="nav-link" href="./ranking.html">热播榜</a>
+          <a class="nav-link is-active" href="./search.html">搜索</a>
+          <a class="nav-link" href="./category-hot-picks.html">热门大片</a>
+          <a class="nav-link" href="./category-classic-films.html">经典老片</a>
+          <a class="nav-link" href="./category-korean-us-drama.html">韩剧美剧</a>
+          <a class="nav-link" href="./category-action-adventure.html">动作冒险</a>
+          <a class="nav-link" href="./category-suspense-thriller.html">悬疑惊悚</a>
+          <a class="nav-link" href="./category-romance-drama.html">爱情剧情</a>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="nav-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-nav" hidden>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a class="nav-link" href="./index.html">首页</a>
+<a class="nav-link" href="./categories.html">分类</a>
+<a class="nav-link" href="./ranking.html">热播榜</a>
+<a class="nav-link is-active" href="./search.html">搜索</a>
+<a class="nav-link" href="./category-hot-picks.html">热门大片</a>
+<a class="nav-link" href="./category-classic-films.html">经典老片</a>
+<a class="nav-link" href="./category-korean-us-drama.html">韩剧美剧</a>
+<a class="nav-link" href="./category-action-adventure.html">动作冒险</a>
+<a class="nav-link" href="./category-suspense-thriller.html">悬疑惊悚</a>
+<a class="nav-link" href="./category-romance-drama.html">爱情剧情</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero small-hero search-hero">
+    <div>
+      <span class="section-kicker">Search</span>
+      <h1>搜索影片</h1>
+      <p>搜索免费高清影视内容，快速查找热门大片、经典老片、韩剧美剧、在线播放资源。</p>
+    </div>
+    <form class="search-panel" action="./search.html" method="get">
+      <input type="search" name="q" id="search-input" placeholder="输入影片名、类型、地区或标签">
+      <button type="submit">开始搜索</button>
+    </form>
+  </section>
+  <section class="section-wrap">
+    <div class="search-status" id="search-status">请输入关键词查找影片</div>
+    <div class="movie-grid grid-xl" id="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">高清影视</div>
+      <p>手机在线免费观看高清影视，热门大片、经典老片、韩剧美剧一应俱全。免费观看，高清画质，每日更新，手机电脑均可观看。</p>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">热播榜</a>
+      <a href="./search.html">搜索影片</a>
+    </div>
+    <div>
+      <h2>热门分类</h2>
+      <a href="./category-hot-picks.html">热门大片</a>
+<a href="./category-classic-films.html">经典老片</a>
+<a href="./category-korean-us-drama.html">韩剧美剧</a>
+<a href="./category-action-adventure.html">动作冒险</a>
+<a href="./category-suspense-thriller.html">悬疑惊悚</a>
+<a href="./category-romance-drama.html">爱情剧情</a>
+<a href="./category-comedy-life.html">喜剧生活</a>
+<a href="./category-fantasy-sci-fi.html">奇幻科幻</a>
+    </div>
+    <div>
+      <h2>观影推荐</h2>
+      <p>热门大片、经典老片、韩剧美剧与高清在线播放内容每日精选。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 高清影视 · 免费观看 · 高清画质 · 手机电脑均可观看</div>
+</footer>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
+
